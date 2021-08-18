@@ -1,7 +1,21 @@
 import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
+import { CharactersCollection } from './CharactersCollection';
+import { LinkedList } from './LinkedList';
 
-const numbers = new NumbersCollection([5, 4, 3, 2, 1, 12, 14, 86, -23]);
-const sorter = new Sorter(numbers);
-sorter.sort();
-console.log(sorter.collection);
+// const numbers = new NumbersCollection([5, 4, 3, 2, 1, 12, 14, 86, -23]);
+// const characters = new CharactersCollection('mannyisamazing');
+// const linkedList = new LinkedList();
+// linkedList.add(500);
+// linkedList.add(10);
+// linkedList.add(6);
+// linkedList.add(14);
+// const sorter = new Sorter(numbers);
+// const sorter2 = new Sorter(characters);
+// const sorter3 = new Sorter(linkedList);
+// sorter.sort();
+// sorter2.sort();
+// sorter3.sort();
+// console.log(sorter.collection);
+// console.log(sorter2.collection);
+// console.log(sorter3.collection);
